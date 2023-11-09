@@ -1,7 +1,29 @@
-ANALYTICS CORPER WORKSHOP DATA CHALLENGE REPORT
-===============================================
+# ANALYTICS CORPER WORKSHOP DATA CHALLENGE REPORT
+----
+## INDUSTRY ANALYSIS
+-----------------
 
-OVERVIEW OF THE DATASET
+The gaming industry is an industry categorized as entertainment and has a market size of $249.60bn. The global video game industry is a billion-dollar business and has been for many years. In 2022, the revenue from the worldwide gaming market was estimated at almost 347 billion U.S. dollars, with the mobile gaming market generating an estimated 248 billion U.S. dollars of the total.
+
+**The Top Players in this Industry**
+
+The Big 3 in the video gaming industry are Nintendo, Microsoft, and Sony. These three companies are major video gaming hardware makers and currently dominate the console gaming market. Due to this infrastructure advantage, the Big 3 are the biggest video game publishers worldwide, making billion of U.S. dollars from video games every year.
+
+**Market Size**
+
+The total demand for gamers in 2023 is estimated to be around 3.3 billion users. As the rate that games are being developed increases each day, the gaming industry shows no sign of slowing down any time soon.
+
+# OBJECTIVE OF THE ANALYSIS
+-------------------------
+
+1.      Identify top performing Games and highlight key factors contributing to their success.
+
+2.      Present key market trends, top geographic and platform Popularity.
+
+3.      Provide recommendations for stakeholders based on the analysis.
+
+
+## OVERVIEW OF THE DATASET
 -----------------------
 
 The dataset was a comma separated value file, file size of 1.32 MB (1,389,095 bytes). The dataset was distributed by the organizers of the analytics corper workshop as final report challenge.
@@ -36,41 +58,20 @@ Based on the research of the analyst, the dataset provided appears to represent 
 
          **Global Sales:** This column represents the total global sales of video games.
 
-OBJECTIVE OF THE ANALYSIS
--------------------------
 
-1.      Identify top performing Games and highlight key factors contributing to their success.
-
-2.      Present key market trends, top geographic and platform Popularity.
-
-3.      Provide recommendations for stakeholders based on the analysis.
-
-INDUSTRY ANALYSIS
------------------
-
-The gaming industry is an industry categorized as entertainment and has a market size of $249.60bn. The global video game industry is a billion-dollar business and has been for many years. In 2022, the revenue from the worldwide gaming market was estimated at almost 347 billion U.S. dollars, with the mobile gaming market generating an estimated 248 billion U.S. dollars of the total.
-
-**The Top Players in this Industry**
-
-The Big 3 in the video gaming industry are Nintendo, Microsoft, and Sony. These three companies are major video gaming hardware makers and currently dominate the console gaming market. Due to this infrastructure advantage, the Big 3 are the biggest video game publishers worldwide, making billion of U.S. dollars from video games every year.
-
-**Market Size**
-
-The total demand for gamers in 2023 is estimated to be around 3.3 billion users. As the rate that games are being developed increases each day, the gaming industry shows no sign of slowing down any time soon.
-
-METHODOLOGY
+# METHODOLOGY
 -----------
 
 This project is divided into three sections which are: Data Ingestion and Cleaning, Data Analysis and Visualization, Conclusion and Recommendation.
 
-Data Ingestion and Cleaning
+### Data Ingestion and Cleaning
 ---------------------------
 
 The data source for this dataset is on the analyst's own computer, and the file size is 1.32 megabytes (MB).
 
 The data was cleaned the data using Power Query Editor in Power BI Desktop version 2.121.903.0. Tasks such as organizing the data, changing column names, sorting, getting rid of empty columns, fixing missing values, trimming text, and making sure data types are correct. Our goal was to prepare the dataset for analysis, and we successfully achieved a 100% data quality for our columns.
 
-![](challenge_report_files/image002.gif)
+![Power Query Image](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/Power_query.png)
 
 After performing this task the data was loaded into power BI for further analysis.
 
@@ -83,20 +84,20 @@ Data visualization is like using pictures or graphs to help explain what we find
 The analysis results showed that among all five gaming consoles, the total sales varied from $821,460 to $1,255,770. The top-selling console was the Playstation 2, generating $1.26 million in revenue from the sale of 2156 units. It was followed by the Xbox 360, which earned $979,600 million in revenue from 1264 units sold. The Playstation 3 ($957,890), the Wii ($926,050), and the Nintendo DS collectively brought in $821,460. billion in revenue, with the highest number of console units distributed (2162 units). This was mainly because this console had a low price per unit, resulting in a ratio of $380 per console. Playstation 2 accounted for 25.42% of the total sales. The Xbox 360 had the highest Price Per Unit to console ratio ($775), making it the most profitable console in the industry.
 
 ![A table with numbers and text
-Description automatically generated](challenge_report_files/image004.gif)![](challenge_report_files/image006.gif)
+Description automatically generated](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/top_selling%20console_excel_calc.png)
+
+![Top Selling Console](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/top_selling%20console.png)
 
 **Total Revenue by Region**
-
 North America had the highest total sales, reaching $3,298,690, followed by Europe, Japan, and other regions. North America's share of the total sales was 48.35%.
 
-![](challenge_report_files/image008.gif)
+![Region Revenue](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/region_revenue.png)
 
 **Top Selling Genre**
 
 In this table, we can see the total sales figures for various video game genres. Action games stand out as the most lucrative genre, with total sales amounting to $1,750,160, indicating their strong popularity and financial success. Sports games follow closely behind with $1,330,540 in sales, showcasing their significant market presence. Shooter games come in third place with total sales of $1,036,840, emphasizing their popularity and profitability. Role-playing games secured the fourth position, generating $927,260 in sales, while platform games, with total sales of $831,040, claimed the fifth spot. This data provides valuable insights into the relative performance of these game genres, with action, sports, and shooter games dominating in terms of total revenue, making them attractive choices for game developers and publishers.
 
-![A graph with a number of bars
-Description automatically generated with medium confidence](challenge_report_files/image010.gif)
+![Top Selling Genre](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/genre.png)
 
 **Sales Trend**
 
@@ -106,19 +107,19 @@ The table presents a historical overview of video game industry sales from 1980 
 
 **Top Selling Video Game**
 
-**![](challenge_report_files/image014.gif)**
+![Sales Trend](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/line_change_1.png)**
 
 The table displays the total sales figures for some popular video games. "Wii Sports" leads with the highest total sales of $82,740, making it the top-selling game in the list. "Grand Theft Auto V" follows with total sales of $55,920, demonstrating its significant popularity. "Super Mario Bros." comes next with $45,310 in total sales, highlighting the enduring appeal of this classic game. "Tetris" has total sales of $35,840, and "Mario Kart Wii" is nearly on par with total sales of $35,830. These numbers reflect the financial success and popularity of these games in the gaming industry. Based on the dataset there are 11 thousand distinct games in the industry.
 
 **Top Earning Publisher**
 
-**![](challenge_report_files/image016.gif)**
+**![Publisher Earninngs](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/publisher.png)**
 
 The table presents the total sales figures for video game publishers. "Nintendo" leads the list with the highest total sales of $1,786,360, indicating their strong presence and success in the gaming industry. "Electronic Arts" follows closely behind with total sales of $1,110,150, showcasing their significant market share and revenue. "Activision" secures the third position with total sales of $727,110, demonstrating their substantial presence in the industry. "Sony Computer Entertainment" has total sales of $607,490, while "Ubisoft" is also a notable player with total sales of $474,510. These figures underscore the financial success and market influence of these major publishers in the video game industry.
 
 **Additional Information**
 
-![](challenge_report_files/image018.gif)
+![](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/second%20page.png)
 
 From the analysis above, analysis of the line chart revealed consistent pattern where an increase in total transactions is associated with a rise in sales. To delve deeper into this relationship, we created a scatter plot. This plot clearly illustrates a positive correlation between the total transactions carried out by gamers and the total revenue generated. In conclusion, all other factors being equal, the data suggests that as the number of transactions increases, so does the overall sales or revenue. This finding emphasizes the significance of transaction volume in driving sales in the gaming industry.
 
