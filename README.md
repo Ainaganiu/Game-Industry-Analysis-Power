@@ -107,7 +107,7 @@ The table presents a historical overview of video game industry sales from 1980 
 
 **Top Selling Video Game**
 
-![Sales Trend](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/line_change_1.png)**
+![Sales Trend](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/sales_percent.png)**
 
 The table displays the total sales figures for some popular video games. "Wii Sports" leads with the highest total sales of $82,740, making it the top-selling game in the list. "Grand Theft Auto V" follows with total sales of $55,920, demonstrating its significant popularity. "Super Mario Bros." comes next with $45,310 in total sales, highlighting the enduring appeal of this classic game. "Tetris" has total sales of $35,840, and "Mario Kart Wii" is nearly on par with total sales of $35,830. These numbers reflect the financial success and popularity of these games in the gaming industry. Based on the dataset there are 11 thousand distinct games in the industry.
 
