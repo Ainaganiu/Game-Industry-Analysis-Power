@@ -130,3 +130,7 @@ Based on the analysis findings, it is recommended that high marketing efforts sh
 Another key recommendation is to allocate high investments to encourage game publishers to develop and publish games in genres that have the potential for high earnings. Diversifying the game genres can attract a broader audience, and capturing a wider range of gaming preferences can lead to increased sales and revenue. By incentivizing publishers to explore various genres and create high-earning games in those categories, the industry can tap into new market segments and maximize its overall reach and profitability.
 
 Furthermore, more market concentration should be focused on the region with low revenue and strategies should be develop to continue this to drive sustainable profits and Relationship does not cause Causation.
+
+## Report Link
+
+For Power BI live report [Click Here](https://shorturl.at/gisvC)
