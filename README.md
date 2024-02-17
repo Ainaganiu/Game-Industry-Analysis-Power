@@ -101,7 +101,7 @@ In this table, we can see the total sales figures for various video game genres.
 
 **Sales Trend**
 
-![](challenge_report_files/image012.gif)
+![](https://github.com/Ainaganiu/Game-Industry-Analysis-Power/blob/main/Picture/line_change_1.png)
 
 The table presents a historical overview of video game industry sales from 1980 to 2020. It shows the total sales figures for each year and calculates the percent change from the previous year where applicable. The data reveals significant fluctuations in the industry's performance over time. Notably, the industry experienced substantial growth in the early years, with a remarkable 213.53% increase in 1981 and 199.70% growth in 1984. However, there were periods of decline, such as a 41.83% drop in 1983 and a 73.08% decrease in 2016. In recent years, there have been sharp declines, including a 99.93% drop in 2017 and 100.00% in 2018, highlighting a considerable downturn. The industry showed signs of recovery with $290 in total sales in 2020. This data underscores the cyclic nature of the video game market, marked by both booms and contractions over the years.
 
